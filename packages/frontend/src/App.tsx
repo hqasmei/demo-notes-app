@@ -6,8 +6,7 @@ import { LinkContainer } from "react-router-bootstrap";
 import { useState } from "react";
 import { AppContext, AppContextType } from "./lib/contextLib";
 import { Auth } from "aws-amplify";
-import { useNavigate } from "react-router-dom";
-import { onError } from "./lib/errorLib";
+import { useNavigate } from "react-router-dom"; 
 
 function App() {
   const nav = useNavigate();
